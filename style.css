@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23.05.2019, 13:24:56
+    Author     : m.giessler
+*/
+
+.dot_row{
+    display: flex;
+    flex-direction: row;
+}
+
+#dice_main{
+    display: block;
+    float: left;
+    visibility: visible;
+    width: 18em;    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+button{
+    margin-top: 2em;
+    height: 2em;
+    width: 4em;
+    font-size: 20px;
+    color: gold;
+    background-color: goldenrod;
+    border-radius: 10px; 
+    border: 2px solid gold;
+    box-shadow: 12px 12px 19px black;   
+}
+
+#dice{
+    display: block;
+    visibility: visible;
+    height: 18em;
+    width: 18em;
+    background-color: cornflowerblue;
+    opacity: 0.9;
+    border: 3px solid black;
+    border-radius: 30px;   
+    box-shadow: 15px 15px 20px black;   
+}
+
+#dot10,#dot11, #dot12, 
+#dot20, #dot21, #dot22, 
+#dot30, #dot31, #dot32{
+    display: block;
+    visibility: hidden;
+    margin: 1.2em 1em 1.5em 1.5em;
+    height: 3em;
+    width: 3em;
+    background-color: gold;
+    opacity: .85;
+    box-shadow: inset grey 15px 15px 20px;
+    border: 2px solid black;
+    border-radius: 70px;   
+}
+
